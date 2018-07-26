@@ -1,0 +1,5 @@
+package com.example.EmployeeDashBoardService.domain.model;
+
+public class EmployeeInfo {
+
+}

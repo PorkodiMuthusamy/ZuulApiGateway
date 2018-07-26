@@ -1,0 +1,6 @@
+---
+applications:
+- name: EmployeeSearchService  
+  instances: 1
+  host: EmployeeSearchService267
+  path: target/EmployeeSearchService-0.0.1-SNAPSHOT.jar 

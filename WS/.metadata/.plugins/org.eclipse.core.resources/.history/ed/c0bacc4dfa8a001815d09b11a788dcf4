@@ -1,0 +1,5 @@
+package com.example.EmployeeSearchService.controller;
+
+public class EmployeeSearchController {
+
+}

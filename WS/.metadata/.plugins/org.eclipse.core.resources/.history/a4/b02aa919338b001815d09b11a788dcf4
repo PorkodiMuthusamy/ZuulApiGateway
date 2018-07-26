@@ -1,0 +1,7 @@
+spring.application.name=EmployeeDashBoard
+spring.cloud.config.uri=http://employeeconfigserver789.cfapps.io
+eureka.client.serviceUrl.defaultZone:http://localhost:9091/eureka
+server.port=8082
+security.basic.enable: false   
+management.security.enabled: false
+service.employyesearch.serviceId=EmployeeSearchService

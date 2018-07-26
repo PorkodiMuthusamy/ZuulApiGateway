@@ -1,0 +1,6 @@
+---
+applications:
+- name: EmployeeDashBoardService  
+  instances: 1
+  host: EmployeeDashBoardService7654
+  path: target/EmployeeSearchService-0.0.1-SNAPSHOT.jar 

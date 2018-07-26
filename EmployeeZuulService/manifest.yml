@@ -1,0 +1,6 @@
+---
+applications:
+- name: EmployeeZuulService  
+  instances: 1
+  host: EmployeeZuulService4690
+  path: target/EmployeeSearchService-0.0.1-SNAPSHOT.jar 

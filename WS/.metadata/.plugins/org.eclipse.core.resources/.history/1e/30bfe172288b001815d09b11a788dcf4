@@ -1,0 +1,7 @@
+---
+applications:
+- name: EmployeeConfigServer
+  memory: 512M
+  instances: 1
+  host: EmployeeConfigServer
+  path: target/EmployeeConfigServer-0.0.1-SNAPSHOT.jar

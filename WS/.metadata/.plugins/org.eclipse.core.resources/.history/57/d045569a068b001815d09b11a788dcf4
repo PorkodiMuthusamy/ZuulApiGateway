@@ -1,0 +1,5 @@
+package com.example.EmployeeDashBoardService.controller;
+
+public interface EmployeeServiceProxy {
+
+}

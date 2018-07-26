@@ -1,0 +1,7 @@
+---
+applications:
+- name: EmployeeEurekaServer
+  memory: 512M
+  instances: 1
+  host: EmployeeEurekaServer0987
+  path: target/EmployeeConfigServer-0.0.1-SNAPSHOT.jar

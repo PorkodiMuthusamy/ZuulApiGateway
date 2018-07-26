@@ -1,0 +1,5 @@
+package com.example.EmployeeSearchService.domain.model;
+
+public class Employee {
+
+}

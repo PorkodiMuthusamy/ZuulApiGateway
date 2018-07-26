@@ -1,0 +1,6 @@
+spring.application.name=EmployeeSearchService
+spring.cloud.config.uri=http://employeeconfigserver789.cfapps.io
+eureka.client.serviceUrl.defaultZone:http://employeeeurekaserver0987.cfapps.io/eureka
+server.port=8081
+security.basic.enable: false   
+management.security.enabled: false

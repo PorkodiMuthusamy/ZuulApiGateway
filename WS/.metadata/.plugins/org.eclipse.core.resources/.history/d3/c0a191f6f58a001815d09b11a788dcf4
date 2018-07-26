@@ -1,0 +1,2 @@
+server.port=9090
+spring.platform.config.server.uri: https://github.com/PorkodiMahendran/JPMCConfig
