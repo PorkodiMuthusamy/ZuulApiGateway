@@ -1,0 +1,23 @@
+security:
+  basic:
+    enabled: false
+spring:
+  application:
+    name: SpringS3Amazon
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://bancadb.co7bwg8dvyny.us-east-1.rds.amazonaws.com/bancadb
+    username: bancauser
+    password: bancauser123
+    testWhileIdle: true
+    validationQuery: SELECT 1       
+  jpa:
+   database: MYSQL
+   hibernate: 
+    ddl-auto: create
+    naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    dialect: org.hibernate.dialect.MySQL5Dialect 
+ 
+    
+
+   

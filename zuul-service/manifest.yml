@@ -1,0 +1,11 @@
+---
+applications:
+- name: zuul-service
+  memory: 1G
+  host: banca1234-zuul-service
+  domain: cfapps.io
+  path: target/zuul-service-0.0.1-SNAPSHOT.jar   
+  services:
+  - BANCA-EUREKA
+  - BANCA-CONFIG
+

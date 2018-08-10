@@ -1,0 +1,11 @@
+
+---
+applications:
+- name: SpringBatchPcfPoc
+  instances: 1
+  memory: 2G
+  disk_quota: 2G
+  host: SpringBatchPcfPoc
+  path: target/SpringBatchPcfPoc-0.0.1.jar
+  services:
+  - bancaawscups
