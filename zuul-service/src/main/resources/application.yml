@@ -25,6 +25,3 @@ zuul:
       #path: /stock-service/**
       #service-id: STOCK-SERVICE
       #url: http://localhost:8301
-
- 
-      
